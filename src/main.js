@@ -13,6 +13,8 @@ import Checkbox from 'primevue/checkbox';
 import Button from 'primevue/button';
 import Card from 'primevue/card';
 import TabMenu from 'primevue/tabmenu';
+import DataTable  from 'primevue/datatable';
+import Column from 'primevue/column';
 
 import ToDo from './components/to-do/Todo.vue';
 import Table from './components/table/Table.vue';
@@ -24,6 +26,8 @@ Vue.component('P-Checkbox', Checkbox);
 Vue.component('P-Button', Button);
 Vue.component('P-Card', Card);
 Vue.component('P-TabMenu', TabMenu);
+Vue.component('P-DataTable', DataTable);
+Vue.component('P-Column', Column);
 
 const router = new VueRouter({
   mode: 'history',
